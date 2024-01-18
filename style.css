@@ -1,5 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+*{
+   padding: 0;
+   margin: 0;
+
+}
+
  body {
     font-family: "Inter", sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
  }
+ .topo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items:center;
+
+ }
+ 
+ ul{
+   display: flex;
+   justify-content: center;
+ }
+
+ li{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ a{
+    text-decoration: none;
+    color: rgb(5, 32, 14);
+ }
+
+ .botão-secundario{
+    border:2px solid rgb(37, 6, 94);
+    border-radius: 7px;
+ }
+
+ img{ 
+    width: 300px;
+ }
+ .corpo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+  .esquerda{
+     display: flex;
+     flex-direction: column ;
+  }
+  p {
+     font-size: 20px;
+     font-weight: 500;
+  }
+  h1{
+     font-size: 40px;
+     font-weight: :900;
+   
+  }
+
+  .botão-primario{
+     background-color: rgb(6, 31, 8);
+     color: rgb(183, 228, 206);
+     font-size: 28px;
+     border-radius: 8px;
+     text-align: center;
+     padding: 10px;
+
+  }
+  p,h1 {
+     padding-top: 16px;
+  }
